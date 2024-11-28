@@ -16,90 +16,114 @@ public class Customer {
 
     private String SSN;
     private String securityQuestion;
-    Customer(){
+
+    public Customer() {
 
     }
 
 
-
-    Customer(String firstname, String lastname,
-             String address, String zipcode, String state,
-             String username, String password, String email,
-             String SSN, String securityQuestion){
+    public Customer(String firstname, String lastname,
+                    String address, String zipcode, String state,
+                    String username, String password, String email,
+                    String SSN, String securityQuestion) {
         this.firstname = firstname;
-
-
-    }
-    //// FULL NAME
-    public void setFirstname(String f){
-        this.firstname = firstname;
-    }
-    public String getFirstname(String f){
-        return f;
-    }
-    public void setLastname(String l){
         this.lastname = lastname;
-    }
-    public String getLastname(String l){
-        return l;
-    }
-    ////FULL ADDRESS
-
-    public void setAddress(String a){
         this.address = address;
-    }
-    public String getAddress(String a){
-        return a;
-    }
-    public void setZipcode(String z){
         this.zipcode = zipcode;
-    }
-    public String getZipcode(String z){
-        return z;
-    }
-    public void setState(String s){
         this.state = state;
-    }
-    public String getState(String s){
-        return state;
-    }
-    //// ACCOUNT
-
-    public void setUsername(){
         this.username = username;
-    }
-    public String getUsername(){
-        return username;
-    }
-    public void setPassword(){
         this.password = password;
-    }
-    public String getPassword(){
-        return password;
-    }
-    public void setEmail(){
         this.email = email;
-    }
-    public String getEmail(){
-        return email;
-    }
-    //// SECURITY
-
-    public void setSSN(){
         this.SSN = SSN;
-    }
-    public String getSSN(){
-        return SSN;
-    }
-    public void setSecurityQuestion(){
         this.securityQuestion = securityQuestion;
     }
-    public String getSecurityQuestion(){
-        return securityQuestion;
+
+    //FULL NAME
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
 
+    public String getFirstname() {
+        return this.firstname;
+    }
 
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
 
+    public String getLastname() {
+        return this.lastname;
+    }
 
+    //ADDRESS
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getAddress() {
+        return this.address;
+    }
+
+    public void setZipcode(String zipcode) {
+        this.zipcode = zipcode;
+    }
+
+    public String getZipcode() {
+        return this.zipcode;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public String getState() {
+        return this.state;
+    }
+
+    // ACCOUNT INFO
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getUsername() {
+        return this.username;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getPassword() {
+        return this.password;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getEmail() {
+        return this.email;
+    }
+
+    // SECURITY
+    public void setSSN(String SSN) {
+        this.SSN = SSN;
+    }
+
+    public String getSSN() {
+        return this.SSN;
+    }
+
+    public void setSecurityQuestion(String securityQuestion) {
+        this.securityQuestion = securityQuestion;
+    }
+
+    public String getSecurityQuestion() {
+        return this.securityQuestion;
+    }
 }
+
+
+
+
 //n

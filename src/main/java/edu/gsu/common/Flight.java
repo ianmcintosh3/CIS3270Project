@@ -1,49 +1,74 @@
 package edu.gsu.common;
 
 public class Flight {
-
-    private String flightNumber;
+    private String airLine;
+    private int flightNumber;
     private String flightDepartureCity;
     private String flightDestinationCity;
     private String flightDate;
     private String flightDepartureTime;
     private String flightArrivalTime;
 
+    // Setter and Getter for AirLine
+    public void setAirLine(String al) {
+        this.airLine = al;
+    }
 
-    public void setFlightNumber(String fn) {
-        this.flightNumber = flightNumber;
+    public String getAirLine() {
+        return this.airLine;
     }
-    public String getFlightNumber(String fn){
-        return fn;
+
+    // Setter and Getter for FlightNumber
+    public void setFlightNumber(int fl) {
+        this.flightNumber = fl;
     }
-    public void setFlightDepartureCity(String fdc){
-        this.flightDepartureCity = flightDepartureCity;
+
+    public int getFlightNumber() {
+        return this.flightNumber;
     }
-    public String getFlightDepartureCity(String fdc){
-        return fdc ;
+
+    // Setter and Getter for FlightDepartureCity
+    public void setFlightDepartureCity(String fdc) {
+        this.flightDepartureCity = fdc;
     }
-    public void setFlightDestinationCity(String fdc){
-        this.flightDestinationCity = flightDestinationCity;
+
+    public String getFlightDepartureCity() {
+        return this.flightDepartureCity;
     }
-    public String getflightDestinationCity(String fdc){
-        return fdc ;
+
+    // Setter and Getter for FlightDestinationCity
+    public void setFlightDestinationCity(String fdc) {
+        this.flightDestinationCity = fdc;
     }
-    public void setFlightDate(String fd){
-        this.flightDate = flightDate;
+
+    public String getFlightDestinationCity() {
+        return this.flightDestinationCity;
     }
-    public String getFlightDate(String fd){
-        return fd;
+
+    // Setter and Getter for FlightDate
+    public void setFlightDate(String fd) {
+        this.flightDate = fd;
     }
-    public void flightDepartureTime(String fdt){
-        this.flightDepartureTime = flightDepartureTime;
+
+    public String getFlightDate() {
+        return this.flightDate;
     }
-    public String getFlightDepartureTime(String fdt){
-        return fdt;
+
+    // Setter and Getter for FlightDepartureTime
+    public void setFlightDepartureTime(String fdt) {
+        this.flightDepartureTime = fdt;
     }
-    public void setFlightArrivalTime(String fat){
-        this.flightArrivalTime = flightArrivalTime;
+
+    public String getFlightDepartureTime() {
+        return this.flightDepartureTime;
     }
-    public String getFlightArrivalTime(String fat){
-        return fat;
+
+    // Setter and Getter for FlightArrivalTime
+    public void setFlightArrivalTime(String fat) {
+        this.flightArrivalTime = fat;
+    }
+
+    public String getFlightArrivalTime() {
+        return this.flightArrivalTime;
     }
 }
