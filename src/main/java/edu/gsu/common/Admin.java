@@ -57,7 +57,7 @@ public class Admin {
         return this.adminPassword;
     }
 
-    // DOUBLE CHECK THIS
+    // DOUBLE CHECK THIS only Admin can do these
     public void addFlight(String flightDetails) {
         System.out.println("Flight added: " + flightDetails);
     }

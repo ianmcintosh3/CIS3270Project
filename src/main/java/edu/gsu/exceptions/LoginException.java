@@ -1,5 +1,12 @@
 package edu.gsu.exceptions;
 
-public class LoginException {
+public class LoginException extends Exception{
 
-}
+
+        public LoginException(String s) {
+
+            super(s);
+        }
+
+    }
+
