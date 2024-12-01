@@ -1,6 +1,6 @@
 package edu.gsu.common;
 
-public class Admin {
+public class Admin extends Customer {
     private String adminId;
     private String adminName;
     private String adminUsername;

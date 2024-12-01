@@ -1,5 +1,5 @@
 package edu.gsu.common;
 
-public class Reservations {
+public class Reservations extends Flight {
 
 }
