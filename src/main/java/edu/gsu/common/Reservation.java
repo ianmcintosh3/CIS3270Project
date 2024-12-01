@@ -6,6 +6,7 @@ public class Reservation {
     private String reservationId;
     private Customer customer;
     private Flight flight;
+
     //list of reservations
     private static ArrayList<String> reservationList = new ArrayList<>();
     public Reservation(String reservationId,Customer customer, Flight flight){
