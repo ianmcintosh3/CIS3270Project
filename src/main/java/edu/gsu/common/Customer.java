@@ -16,6 +16,7 @@ public class Customer {
 
     private String SSN;
     private String securityQuestion;
+    private String securityAnswer;
 
     public Customer() {
 
@@ -36,6 +37,7 @@ public class Customer {
         this.email = email;
         this.SSN = SSN;
         this.securityQuestion = securityQuestion;
+        this.securityAnswer = securityAnswer;
     }
 
     //FULL NAME
@@ -120,6 +122,14 @@ public class Customer {
 
     public String getSecurityQuestion() {
         return this.securityQuestion;
+    }
+
+    public void setSecurityAnswer(String securityanswer) {
+        this.securityAnswer = securityanswer;
+    }
+
+    public String getSecurityAnswer(){
+        return this.securityAnswer;
     }
 }
 
