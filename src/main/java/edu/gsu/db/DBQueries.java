@@ -9,7 +9,7 @@ import java.sql.SQLException;
 import edu.gsu.common.Admin;
 import edu.gsu.common.Customer;
 import edu.gsu.common.Flight;
-import edu.gsu.common.Reservations;
+import edu.gsu.common.Reservation;
 import edu.gsu.exceptions.LoginException;
 public class DBQueries {
 
